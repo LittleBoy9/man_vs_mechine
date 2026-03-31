@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Man vs Mechine</title>
+  <link rel="stylesheet" href="public/styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">
+          <strong>Man vs Mechine</strong>
+          <span>Editorial static site</span>
+        </a>
+        <nav class="nav-links">
+          <a data-nav href="index.html">Home</a>
+          <a data-nav href="manifesto.html">Manifesto</a>
+          <a data-nav href="journal.html">Journal</a>
+          <a data-nav href="gallery.html">Gallery</a>
+          <a data-nav href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <div class="container">
+          <span class="eyebrow">About / Project note</span>
+          <h1>Why this website exists</h1>
+          <p class="lead">It is a simple multi-page HTML site that behaves like a small publication. The theme is conflict, but the real subject is collaboration: what happens when people and software share authorship.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-grid">
+          <div class="card">
+            <span>Site structure</span>
+            <h2>What is inside</h2>
+            <ul class="list-clean">
+              <li>Shared navigation across all pages.</li>
+              <li>One reusable stylesheet and one tiny script.</li>
+              <li>Local JPG and WEBP poster assets with readable text.</li>
+              <li>Remote poster-style images that also contain text.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span>Naming note</span>
+            <h2>Why “Mechine” stays</h2>
+            <p>The spelling is preserved because it gives the project a rough, authored identity. It feels less like a startup landing page and more like a homemade editorial artifact.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container story-grid">
+          <figure class="image-frame">
+            <img src="public/images/poster.jpg" alt="Local poster image from images folder" />
+          </figure>
+          <div class="note">
+            <span>Production note</span>
+            <h3>Asset approach</h3>
+            <p>The site now mixes your local JPG and WEBP assets with the custom SVG set, so the visual system feels less synthetic and more varied.</p>
+            <p>I can also extend this into more pages such as article detail pages, an authors page, or a contact page without changing the structure much.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Static and easy to expand</h3>
+          <p class="footer-note">Everything here is plain HTML/CSS/JS, so the site can be hosted anywhere or expanded page by page.</p>
+        </div>
+        <div class="chip-row">
+          <a class="button" href="index.html">Home</a>
+          <a class="button primary" href="manifesto.html">Manifesto</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="public/site.js"></script>
+</body>
+</html>
