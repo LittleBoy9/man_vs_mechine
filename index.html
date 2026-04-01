@@ -1,146 +1,222 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Man vs Mechine</title>
-  <meta name="description" content="A multi-page editorial website about the tension between human craft and machine speed." />
-  <link rel="stylesheet" href="assets/styles.css" />
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="nav-wrap">
-        <a class="brand" href="index.html">
-          <strong>Man vs Mechine</strong>
-          <span>Editorial static site</span>
-        </a>
-        <nav class="nav-links">
-          <a data-nav href="index.html">Home</a>
-          <a data-nav href="manifesto.html">Manifesto</a>
-          <a data-nav href="journal.html">Journal</a>
-          <a data-nav href="gallery.html">Gallery</a>
-          <a data-nav href="about.html">About</a>
-        </nav>
-      </div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Man vs Mechine</title>
+    <meta
+      name="description"
+      content="A multi-page editorial website about the tension between human craft and machine speed."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script
+      type="text/javascript"
+      src="https://d1wrgmw2jqph3l.cloudfront.net/web-translate/on-the-fly-stg.min.js"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new VitraOnTheFly({
+          api_key: "vitra._1FeIausY2uUVI5ax9VWOAS_PEIL_0",
+          glossaryId: "c3f4afa1-62a4-4bec-b33f-785f67724ec6",
+          position: "center-right",
+          theme: "dark",
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="nav-wrap">
+          <a class="brand" href="index.html">
+            <strong>Man vs Mechine</strong>
+            <span>Editorial static site</span>
+          </a>
+          <nav class="nav-links">
+            <a data-nav href="index.html">Home</a>
+            <a data-nav href="manifesto.html">Manifesto</a>
+            <a data-nav href="journal.html">Journal</a>
+            <a data-nav href="gallery.html">Gallery</a>
+            <a data-nav href="about.html">About</a>
+          </nav>
+        </div>
+      </header>
 
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div>
-            <span class="eyebrow">Issue 01 / Human Friction</span>
-            <h1>Man vs Mechine</h1>
-            <p class="lead">A full static editorial site about craft, authorship, and the messy line between human judgment and synthetic output. Built like a blog, staged like a magazine, and filled with text-heavy visuals.</p>
-            <div class="cta-row">
-              <a class="button primary" href="manifesto.html">Read the manifesto</a>
-              <a class="button" href="gallery.html">Open the image wall</a>
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div>
+              <span class="eyebrow">Issue 01 / Human Friction</span>
+              <h1>Man vs Mechine</h1>
+              <p class="lead">
+                A full static editorial site about craft, authorship, and the
+                messy line between human judgment and synthetic output. Built
+                like a blog, staged like a magazine, and filled with text-heavy
+                visuals.
+              </p>
+              <div class="cta-row">
+                <a class="button primary" href="manifesto.html"
+                  >Read the manifesto</a
+                >
+                <a class="button" href="gallery.html">Open the image wall</a>
+              </div>
+            </div>
+            <div class="hero-stack">
+              <figure class="image-frame">
+                <img
+                  src="assets/images/1131w-r-gWZi50xNk.webp"
+                  alt="Featured human versus machine poster"
+                />
+                <figcaption>
+                  Featured local WEBP poster from your `public` folder, used as
+                  the main visual anchor.
+                </figcaption>
+              </figure>
+              <div class="split-grid">
+                <figure class="image-frame">
+                  <img
+                    src="assets/images/dance-contest-poster-template-edit-online.jpg"
+                    alt="Local poster image with large typography"
+                  />
+                </figure>
+                <figure class="image-frame">
+                  <img
+                    class="remote-image"
+                    src="https://dummyimage.com/720x540/111827/f8f2e9.png&text=REMOTE+HEADER%0AEditorial+Poster%0AHuman+Judgment+Still+Matters"
+                    alt="Remote text poster"
+                  />
+                </figure>
+              </div>
             </div>
           </div>
-          <div class="hero-stack">
-            <figure class="image-frame">
-              <img src="assets/images/1131w-r-gWZi50xNk.webp" alt="Featured human versus machine poster" />
-              <figcaption>Featured local WEBP poster from your `public` folder, used as the main visual anchor.</figcaption>
-            </figure>
+        </section>
+
+        <section class="section">
+          <div class="container stats-grid">
+            <div class="metric">
+              <span>Pages</span>
+              <strong>5</strong>
+              <p>
+                Landing, manifesto, journal, gallery, and about page, all plain
+                HTML.
+              </p>
+            </div>
+            <div class="metric">
+              <span>Local visuals</span>
+              <strong>6+</strong>
+              <p>
+                JPG and WEBP poster images stored inside the local
+                `assets/images` folder.
+              </p>
+            </div>
+            <div class="metric">
+              <span>Remote visuals</span>
+              <strong>Text-first</strong>
+              <p>
+                Direct image links also render headlines and labels inside the
+                image itself.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container story-grid">
+            <div class="card">
+              <span>Editorial premise</span>
+              <h2>Not anti-machine. Anti-amnesia.</h2>
+              <p>
+                This site treats automation as a force that should be examined,
+                not worshipped. Every section asks a simple question: can
+                readers still tell where thought happened?
+              </p>
+              <ul class="list-clean">
+                <li>Essays framed like print layouts.</li>
+                <li>Image blocks with real text inside the image.</li>
+                <li>Local assets mixed with direct remote image URLs.</li>
+              </ul>
+            </div>
+            <div class="poster-wall">
+              <figure class="image-frame">
+                <img
+                  src="assets/images/dance-contest-poster-template-edit-online.jpg"
+                  alt="Poster image with bold text"
+                />
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="assets/images/poster.jpg"
+                  alt="Local square poster image"
+                />
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="assets/images/image.jpg"
+                  alt="Local editorial poster image"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="banner image-frame">
+              <img
+                class="remote-image"
+                src="https://dummyimage.com/1400x760/efe4d4/1f1a17.png&text=SIGNAL+%2F+NOISE%0ARead+slower.+Question+the+voice."
+                alt="Wide banner with editorial text"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
             <div class="split-grid">
-              <figure class="image-frame">
-                <img src="assets/images/dance-contest-poster-template-edit-online.jpg" alt="Local poster image with large typography" />
-              </figure>
-              <figure class="image-frame">
-                <img class="remote-image" src="https://dummyimage.com/720x540/111827/f8f2e9.png&text=REMOTE+HEADER%0AEditorial+Poster%0AHuman+Judgment+Still+Matters" alt="Remote text poster" />
-              </figure>
+              <article class="card">
+                <span>Latest read</span>
+                <h3>The cost of instant plausibility</h3>
+                <p>
+                  Generated text often arrives looking complete before it has
+                  earned the right to be trusted. Design can either hide that
+                  problem or put it under a bright lamp.
+                </p>
+                <a class="button" href="journal.html">Open journal</a>
+              </article>
+              <article class="quote-box">
+                <span class="mini-label">Pull quote</span>
+                <h3>
+                  “If the output is smooth, the interface should still expose
+                  the seams.”
+                </h3>
+                <p>
+                  That is the central rule of this site. The visuals stay
+                  dramatic, but the logic stays readable.
+                </p>
+              </article>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      <section class="section">
-        <div class="container stats-grid">
-          <div class="metric">
-            <span>Pages</span>
-            <strong>5</strong>
-            <p>Landing, manifesto, journal, gallery, and about page, all plain HTML.</p>
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div>
+            <h3>Built as a static magazine</h3>
+            <p class="footer-note">
+              All pages are plain HTML. The shared styling and image system live
+              in `assets/` for reuse.
+            </p>
           </div>
-          <div class="metric">
-            <span>Local visuals</span>
-            <strong>6+</strong>
-            <p>JPG and WEBP poster images stored inside the local `assets/images` folder.</p>
-          </div>
-          <div class="metric">
-            <span>Remote visuals</span>
-            <strong>Text-first</strong>
-            <p>Direct image links also render headlines and labels inside the image itself.</p>
+          <div class="chip-row">
+            <a class="button" href="manifesto.html">Manifesto</a>
+            <a class="button" href="gallery.html">Gallery</a>
+            <a class="button" href="about.html">About</a>
           </div>
         </div>
-      </section>
-
-      <section class="section">
-        <div class="container story-grid">
-          <div class="card">
-            <span>Editorial premise</span>
-            <h2>Not anti-machine. Anti-amnesia.</h2>
-            <p>This site treats automation as a force that should be examined, not worshipped. Every section asks a simple question: can readers still tell where thought happened?</p>
-            <ul class="list-clean">
-              <li>Essays framed like print layouts.</li>
-              <li>Image blocks with real text inside the image.</li>
-              <li>Local assets mixed with direct remote image URLs.</li>
-            </ul>
-          </div>
-          <div class="poster-wall">
-            <figure class="image-frame">
-              <img src="assets/images/dance-contest-poster-template-edit-online.jpg" alt="Poster image with bold text" />
-            </figure>
-            <figure class="image-frame">
-              <img src="assets/images/poster.jpg" alt="Local square poster image" />
-            </figure>
-            <figure class="image-frame">
-              <img src="assets/images/image.jpg" alt="Local editorial poster image" />
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="banner image-frame">
-            <img class="remote-image" src="https://dummyimage.com/1400x760/efe4d4/1f1a17.png&text=SIGNAL+%2F+NOISE%0ARead+slower.+Question+the+voice." alt="Wide banner with editorial text" />
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="split-grid">
-            <article class="card">
-              <span>Latest read</span>
-              <h3>The cost of instant plausibility</h3>
-              <p>Generated text often arrives looking complete before it has earned the right to be trusted. Design can either hide that problem or put it under a bright lamp.</p>
-              <a class="button" href="journal.html">Open journal</a>
-            </article>
-            <article class="quote-box">
-              <span class="mini-label">Pull quote</span>
-              <h3>“If the output is smooth, the interface should still expose the seams.”</h3>
-              <p>That is the central rule of this site. The visuals stay dramatic, but the logic stays readable.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-grid">
-        <div>
-          <h3>Built as a static magazine</h3>
-          <p class="footer-note">All pages are plain HTML. The shared styling and image system live in `assets/` for reuse.</p>
-        </div>
-        <div class="chip-row">
-          <a class="button" href="manifesto.html">Manifesto</a>
-          <a class="button" href="gallery.html">Gallery</a>
-          <a class="button" href="about.html">About</a>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <script src="assets/site.js"></script>
-</body>
+      </footer>
+    </div>
+    <script src="assets/site.js"></script>
+  </body>
 </html>
