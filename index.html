@@ -6,7 +6,7 @@
     <title>Man vs Mechine</title>
     <meta
       name="description"
-      content="A multi-page editorial website about the tension between human craft and machine speed."
+      content="A visual exploration of the tension between human craft and machine speed."
     />
     <link rel="stylesheet" href="assets/styles.css" />
     <script
@@ -28,191 +28,367 @@
     <div class="site-shell">
       <header class="site-header">
         <div class="nav-wrap">
-          <a class="brand" href="index.html">
+          <a class="brand" href="#">
             <strong>Man vs Mechine</strong>
-            <span>Editorial static site</span>
+            <span>Editorial Visual Experience</span>
           </a>
           <nav class="nav-links">
-            <a data-nav href="index.html">Home</a>
-            <a data-nav href="manifesto.html">Manifesto</a>
-            <a data-nav href="journal.html">Journal</a>
-            <a data-nav href="gallery.html">Gallery</a>
-            <a data-nav href="about.html">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
           </nav>
         </div>
       </header>
 
       <main>
+        <!-- Hero Section -->
         <section class="hero">
-          <div class="container hero-grid">
-            <div>
-              <span class="eyebrow">Issue 01 / Human Friction</span>
-              <h1>Man vs Mechine</h1>
-              <p class="lead">
-                A full static editorial site about craft, authorship, and the
-                messy line between human judgment and synthetic output. Built
-                like a blog, staged like a magazine, and filled with text-heavy
-                visuals.
-              </p>
-              <div class="cta-row">
-                <a class="button primary" href="manifesto.html"
-                  >Read the manifesto</a
-                >
-                <a class="button" href="gallery.html">Open the image wall</a>
-              </div>
+          <div class="container hero-content">
+            <span class="eyebrow">Issue 01 / Human Friction</span>
+            <h1>Man vs Mechine</h1>
+            <p class="lead">
+              A visual editorial exploring craft, authorship, and the messy line 
+              between human judgment and synthetic output. Built like a magazine, 
+              experienced like a gallery.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#gallery">Explore Gallery</a>
+              <a class="button" href="#about">Learn More</a>
             </div>
-            <div class="hero-stack">
-              <figure class="image-frame">
-                <img
-                  src="assets/images/1131w-r-gWZi50xNk.webp"
-                  alt="Featured human versus machine poster"
-                />
-                <figcaption>
-                  Featured local WEBP poster from your `public` folder, used as
-                  the main visual anchor.
-                </figcaption>
-              </figure>
-              <div class="split-grid">
-                <figure class="image-frame">
+          </div>
+        </section>
+
+        <!-- Full Gallery Section - All Images -->
+        <section id="gallery" class="section gallery-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-label">Visual Archive</span>
+              <h2>The Complete Collection</h2>
+              <p class="section-desc">
+                Every image displayed in full view. No crops. No compromises. 
+                Each piece tells a story of human creativity meeting machine precision.
+              </p>
+            </div>
+
+            <div class="gallery-full">
+              <!-- Image 1 -->
+              <article class="gallery-item large">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/1131w-r-gWZi50xNk.webp"
+                    alt="Featured human versus machine artwork"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Human vs Machine</h3>
+                  <p>The primary visual statement — where human craft confronts machine precision.</p>
+                </div>
+              </article>
+
+              <!-- Image 2 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
                   <img
                     src="assets/images/dance-contest-poster-template-edit-online.jpg"
-                    alt="Local poster image with large typography"
+                    alt="Dance contest poster with bold typography"
+                    loading="lazy"
                   />
-                </figure>
-                <figure class="image-frame">
+                </div>
+                <div class="image-info">
+                  <h3>Dance Contest</h3>
+                  <p>Bold typography meets dynamic composition in this editorial poster.</p>
+                </div>
+              </article>
+
+              <!-- Image 3 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
                   <img
-                    class="remote-image"
-                    src="https://dummyimage.com/720x540/111827/f8f2e9.png&text=REMOTE+HEADER%0AEditorial+Poster%0AHuman+Judgment+Still+Matters"
-                    alt="Remote text poster"
+                    src="assets/images/banner-template-m8lyw.jpg"
+                    alt="Wide banner template design"
+                    loading="lazy"
                   />
-                </figure>
+                </div>
+                <div class="image-info">
+                  <h3>Banner Template</h3>
+                  <p>Wide-format design exploring the boundaries of digital composition.</p>
+                </div>
+              </article>
+
+              <!-- Image 4 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/image.jpg"
+                    alt="Editorial poster image"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Editorial Statement</h3>
+                  <p>A focused piece on the intersection of tradition and innovation.</p>
+                </div>
+              </article>
+
+              <!-- Image 5 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/poster.jpg"
+                    alt="Square format poster design"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Square Format</h3>
+                  <p>Geometric precision meets artistic expression in this compact statement.</p>
+                </div>
+              </article>
+
+              <!-- Image 6 -->
+              <article class="gallery-item large">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/Love-Letter-Template.webp"
+                    alt="Love letter template design"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Love Letter</h3>
+                  <p>A template that bridges personal expression with digital design.</p>
+                </div>
+              </article>
+
+              <!-- Image 7 -->
+              <article class="gallery-item wide">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/Professional-Web-Banner-AD-in-Photoshop-scaled.jpg"
+                    alt="Professional web banner advertisement"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Professional Banner</h3>
+                  <p>Full-scale web advertising design — where marketing meets machine learning.</p>
+                </div>
+              </article>
+
+              <!-- Image 8 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/test.jpg"
+                    alt="Test image for editorial exploration"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Test Piece</h3>
+                  <p>Experimental visual exploring the boundaries of automated design.</p>
+                </div>
+              </article>
+
+              <!-- Image 9 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/250561_Airtel_Payments Bank_Instant Loans_Poster_14_ x 19__English (AW).jpg"
+                    alt="Airtel Payments Bank instant loans poster"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Airtel Payments Bank</h3>
+                  <p>Commercial poster design for instant loans — advertising meets automation.</p>
+                </div>
+              </article>
+
+              <!-- Image 10 -->
+              <article class="gallery-item wide">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/250658_Airtel_APB_Rath Yatra Banner 3x2.jpg"
+                    alt="Airtel Rath Yatra banner 3x2 ratio"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Rath Yatra Banner</h3>
+                  <p>Wide-format event banner — 3:2 aspect ratio for cultural celebration.</p>
+                </div>
+              </article>
+
+              <!-- Image 11 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/250695_Airtel_APB_Rath Yatra_Varanasi Skirting_3 x 1.jpg"
+                    alt="Airtel Rath Yatra Varanasi skirting banner"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Varanasi Skirting</h3>
+                  <p>Ultra-wide 3:1 banner design for event branding in Varanasi.</p>
+                </div>
+              </article>
+
+              <!-- Image 12 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/image (11).png"
+                    alt="Editorial PNG artwork eleven"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Editorial PNG 11</h3>
+                  <p>High-fidelity PNG artwork exploring digital craft.</p>
+                </div>
+              </article>
+
+              <!-- Image 13 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/image (15).png"
+                    alt="Editorial PNG artwork fifteen"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Editorial PNG 15</h3>
+                  <p>High-fidelity PNG artwork exploring digital craft.</p>
+                </div>
+              </article>
+
+              <!-- Image 14 -->
+              <article class="gallery-item large">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/banner-poster-design-template-ab007a8967c2827baf129acba42fdafa_screen.jpg"
+                    alt="Banner poster design template screen"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Template Screen</h3>
+                  <p>Full-screen banner poster template — the machinery behind the design.</p>
+                </div>
+              </article>
+
+              <!-- Image 15 -->
+              <article class="gallery-item">
+                <div class="image-wrapper">
+                  <img
+                    src="assets/images/sale-banner-template-with-special-sale-vector_resized_720x720_1770798060551.jpg"
+                    alt="Sale banner template with special sale vector"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="image-info">
+                  <h3>Sale Banner</h3>
+                  <p>Commercial sale banner — where promotional design meets vector precision.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+          <div class="container">
+            <div class="about-grid">
+              <div class="about-content">
+                <span class="section-label">The Premise</span>
+                <h2>Not Anti-Machine.<br />Anti-Amnesia.</h2>
+                <p>
+                  This visual experience treats automation as a force that should 
+                  be examined, not worshipped. Every image asks a simple question: 
+                  can viewers still tell where human thought happened?
+                </p>
+                <p>
+                  In an age of instant plausibility, we choose to slow down. 
+                  Each poster, each banner, each frame is a testament to the 
+                  friction between human judgment and synthetic output.
+                </p>
+                <div class="stats-row">
+                  <div class="stat">
+                    <strong>15</strong>
+                    <span>Visual Pieces</span>
+                  </div>
+                  <div class="stat">
+                    <strong>100%</strong>
+                    <span>Human Curated</span>
+                  </div>
+                  <div class="stat">
+                    <strong>∞</strong>
+                    <span>Questions Raised</span>
+                  </div>
+                </div>
+              </div>
+              <div class="about-visual">
+                <div class="visual-card">
+                  <img
+                    src="assets/images/1131w-r-gWZi50xNk.webp"
+                    alt="Featured artwork"
+                  />
+                  <div class="visual-overlay">
+                    <p>"If the output is smooth, the interface should still expose the seams."</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="section">
-          <div class="container stats-grid">
-            <div class="metric">
-              <span>Pages</span>
-              <strong>5</strong>
-              <p>
-                Landing, manifesto, journal, gallery, and about page, all plain
-                HTML.
-              </p>
-            </div>
-            <div class="metric">
-              <span>Local visuals</span>
-              <strong>6+</strong>
-              <p>
-                JPG and WEBP poster images stored inside the local
-                `assets/images` folder.
-              </p>
-            </div>
-            <div class="metric">
-              <span>Remote visuals</span>
-              <strong>Text-first</strong>
-              <p>
-                Direct image links also render headlines and labels inside the
-                image itself.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="container story-grid">
-            <div class="card">
-              <span>Editorial premise</span>
-              <h2>Not anti-machine. Anti-amnesia.</h2>
-              <p>
-                This site treats automation as a force that should be examined,
-                not worshipped. Every section asks a simple question: can
-                readers still tell where thought happened?
-              </p>
-              <ul class="list-clean">
-                <li>Essays framed like print layouts.</li>
-                <li>Image blocks with real text inside the image.</li>
-                <li>Local assets mixed with direct remote image URLs.</li>
-              </ul>
-            </div>
-            <div class="poster-wall">
-              <figure class="image-frame">
-                <img
-                  src="assets/images/dance-contest-poster-template-edit-online.jpg"
-                  alt="Poster image with bold text"
-                />
-              </figure>
-              <figure class="image-frame">
-                <img
-                  src="assets/images/poster.jpg"
-                  alt="Local square poster image"
-                />
-              </figure>
-              <figure class="image-frame">
-                <img
-                  src="assets/images/image.jpg"
-                  alt="Local editorial poster image"
-                />
-              </figure>
-            </div>
-          </div>
-        </section>
-
-        <section class="section">
+        <!-- Manifesto Section -->
+        <section class="section manifesto-section">
           <div class="container">
-            <div class="banner image-frame">
-              <img
-                class="remote-image"
-                src="https://dummyimage.com/1400x760/efe4d4/1f1a17.png&text=SIGNAL+%2F+NOISE%0ARead+slower.+Question+the+voice."
-                alt="Wide banner with editorial text"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="container">
-            <div class="split-grid">
-              <article class="card">
-                <span>Latest read</span>
-                <h3>The cost of instant plausibility</h3>
-                <p>
-                  Generated text often arrives looking complete before it has
-                  earned the right to be trusted. Design can either hide that
-                  problem or put it under a bright lamp.
-                </p>
-                <a class="button" href="journal.html">Open journal</a>
-              </article>
-              <article class="quote-box">
-                <span class="mini-label">Pull quote</span>
-                <h3>
-                  “If the output is smooth, the interface should still expose
-                  the seams.”
-                </h3>
-                <p>
-                  That is the central rule of this site. The visuals stay
-                  dramatic, but the logic stays readable.
-                </p>
-              </article>
+            <div class="manifesto-content">
+              <span class="section-label">The Rules</span>
+              <h2>Design Principles</h2>
+              <div class="rules-grid">
+                <div class="rule">
+                  <div class="rule-number">01</div>
+                  <h3>Expose the Seams</h3>
+                  <p>Generated text often arrives looking complete before it has earned the right to be trusted. Good design exposes its process.</p>
+                </div>
+                <div class="rule">
+                  <div class="rule-number">02</div>
+                  <h3>Question the Voice</h3>
+                  <p>Every image here asks: who made this? The answer should never be obvious.</p>
+                </div>
+                <div class="rule">
+                  <div class="rule-number">03</div>
+                  <h3>Embrace Friction</h3>
+                  <p>Smooth outputs hide rough thinking. We choose rough outputs that hide smooth thinking.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
       </main>
 
       <footer class="footer">
-        <div class="container footer-grid">
-          <div>
-            <h3>Built as a static magazine</h3>
-            <p class="footer-note">
-              All pages are plain HTML. The shared styling and image system live
-              in `assets/` for reuse.
+        <div class="container footer-content">
+          <div class="footer-brand">
+            <h3>Man vs Mechine</h3>
+            <p>
+              A static editorial magazine built for slow reading and fast thinking. 
+              All visuals displayed in their entirety — no crops, no compromises.
             </p>
           </div>
-          <div class="chip-row">
-            <a class="button" href="manifesto.html">Manifesto</a>
-            <a class="button" href="gallery.html">Gallery</a>
-            <a class="button" href="about.html">About</a>
+          <div class="footer-links">
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#">Back to Top</a>
+          </div>
+          <div class="footer-note">
+            <p>&copy; 2026 Man vs Mechine. Built as a visual statement.</p>
           </div>
         </div>
       </footer>
