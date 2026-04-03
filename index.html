@@ -34,6 +34,8 @@
           </a>
           <nav class="nav-links">
             <a href="#gallery">Gallery</a>
+            <a href="#video-showcase">Video</a>
+            <a href="#asset-test">Assets</a>
             <a href="#about">About</a>
           </nav>
         </div>
@@ -42,12 +44,24 @@
       <main>
         <!-- Hero Section -->
         <section class="hero">
+          <div class="hero-video-background">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              class="hero-video"
+            >
+              <source src="assets/robot-arm.mp4" type="video/mp4" />
+            </video>
+            <div class="video-overlay"></div>
+          </div>
           <div class="container hero-content">
             <span class="eyebrow">Issue 01 / Human Friction</span>
             <h1>Man vs Mechine</h1>
             <p class="lead">
-              A visual editorial exploring craft, authorship, and the messy line 
-              between human judgment and synthetic output. Built like a magazine, 
+              A visual editorial exploring craft, authorship, and the messy line
+              between human judgment and synthetic output. Built like a magazine,
               experienced like a gallery.
             </p>
             <div class="cta-row">
@@ -298,6 +312,324 @@
           </div>
         </section>
 
+        <!-- Video Showcase Section -->
+        <section id="video-showcase" class="section video-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-label">Motion Study</span>
+              <h2>The Machine in Motion</h2>
+              <p class="section-desc">
+                A robotic arm demonstrates the precision and repetition that defines machine work — 
+                the very qualities that both enable and threaten human creative expression.
+              </p>
+            </div>
+            <div class="video-container">
+              <video
+                controls
+                class="showcase-video"
+                poster="assets/images/1131w-r-gWZi50xNk.webp"
+              >
+                <source src="assets/robot-arm.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-caption">
+                <p>Robotic arm in operation — a study in automated precision</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Asset Testing Section -->
+        <section id="asset-test" class="section asset-test-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-label">Asset Testing</span>
+              <h2>All Asset Types</h2>
+              <p class="section-desc">
+                Comprehensive showcase of every asset file in the system. Each item displays its file extension and type for testing purposes.
+              </p>
+            </div>
+
+            <!-- Design Source Files -->
+            <div class="asset-category">
+              <h3 class="category-title">Design Source Files</h3>
+              <div class="asset-grid">
+                <!-- AI File -->
+                <article class="asset-card">
+                  <div class="asset-preview asset-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="15" y="10" width="70" height="80" rx="8" fill="#FF9A00" />
+                      <text x="50" y="60" text-anchor="middle" fill="#fff" font-size="24" font-weight="bold" font-family="Arial">.ai</text>
+                    </svg>
+                  </div>
+                  <div class="asset-info">
+                    <h4>2391226.ai</h4>
+                    <span class="file-extension badge-ai">Adobe Illustrator</span>
+                    <p class="file-size">Vector Source File</p>
+                  </div>
+                </article>
+
+                <!-- PSD File -->
+                <article class="asset-card">
+                  <div class="asset-preview asset-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="15" y="10" width="70" height="80" rx="8" fill="#31A8FF" />
+                      <text x="50" y="60" text-anchor="middle" fill="#fff" font-size="24" font-weight="bold" font-family="Arial">.psd</text>
+                    </svg>
+                  </div>
+                  <div class="asset-info">
+                    <h4>11771140.psd</h4>
+                    <span class="file-extension badge-psd">Adobe Photoshop</span>
+                    <p class="file-size">Photoshop Document</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Video Assets -->
+            <div class="asset-category">
+              <h3 class="category-title">Video Assets</h3>
+              <div class="asset-grid">
+                <article class="asset-card">
+                  <div class="asset-preview asset-video">
+                    <video muted loop playsinline class="preview-video">
+                      <source src="assets/robot-arm.mp4" type="video/mp4" />
+                    </video>
+                    <div class="play-overlay">
+                      <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="28" fill="rgba(0,0,0,0.7)" />
+                        <polygon points="24,18 24,42 42,30" fill="#fff" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="asset-info">
+                    <h4>robot-arm.mp4</h4>
+                    <span class="file-extension badge-video">MP4 Video</span>
+                    <p class="file-size">37.1 MB</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Image Assets - WEBP -->
+            <div class="asset-category">
+              <h3 class="category-title">Image Assets — WEBP Format</h3>
+              <div class="asset-grid">
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/1131w-r-gWZi50xNk.webp" alt="Featured artwork" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>1131w-r-gWZi50xNk.webp</h4>
+                    <span class="file-extension badge-webp">WEBP Image</span>
+                    <p class="file-size">WebP Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/Love-Letter-Template.webp" alt="Love letter template" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>Love-Letter-Template.webp</h4>
+                    <span class="file-extension badge-webp">WEBP Image</span>
+                    <p class="file-size">WebP Format</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Image Assets - JPG -->
+            <div class="asset-category">
+              <h3 class="category-title">Image Assets — JPG Format</h3>
+              <div class="asset-grid">
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/image.jpg" alt="Editorial poster" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>image.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/poster.jpg" alt="Square poster" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>poster.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/test.jpg" alt="Test image" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>test.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/dance-contest-poster-template-edit-online.jpg" alt="Dance contest poster" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>dance-contest-poster-template-edit-online.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/banner-template-m8lyw.jpg" alt="Banner template" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>banner-template-m8lyw.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/banner-poster-design-template-ab007a8967c2827baf129acba42fdafa_screen.jpg" alt="Banner poster template" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>banner-poster-design-template-ab007a8967c2827baf129acba42fdafa_screen.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/Professional-Web-Banner-AD-in-Photoshop-scaled.jpg" alt="Professional web banner" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>Professional-Web-Banner-AD-in-Photoshop-scaled.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/sale-banner-template-with-special-sale-vector_resized_720x720_1770798060551.jpg" alt="Sale banner" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>sale-banner-template-with-special-sale-vector_resized_720x720_1770798060551.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/250561_Airtel_Payments Bank_Instant Loans_Poster_14_ x 19__English (AW).jpg" alt="Airtel payments poster" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>250561_Airtel_Payments Bank_Instant Loans_Poster_14_ x 19__English (AW).jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/250658_Airtel_APB_Rath Yatra Banner 3x2.jpg" alt="Airtel banner" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>250658_Airtel_APB_Rath Yatra Banner 3x2.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/250695_Airtel_APB_Rath Yatra_Varanasi Skirting_3 x 1.jpg" alt="Airtel skirting" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>250695_Airtel_APB_Rath Yatra_Varanasi Skirting_3 x 1.jpg</h4>
+                    <span class="file-extension badge-jpg">JPG Image</span>
+                    <p class="file-size">JPEG Format</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Image Assets - PNG -->
+            <div class="asset-category">
+              <h3 class="category-title">Image Assets — PNG Format</h3>
+              <div class="asset-grid">
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/image (11).png" alt="Editorial PNG 11" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>image (11).png</h4>
+                    <span class="file-extension badge-png">PNG Image</span>
+                    <p class="file-size">PNG Format</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-image">
+                    <img src="assets/images/image (15).png" alt="Editorial PNG 15" loading="lazy" />
+                  </div>
+                  <div class="asset-info">
+                    <h4>image (15).png</h4>
+                    <span class="file-extension badge-png">PNG Image</span>
+                    <p class="file-size">PNG Format</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- System Files -->
+            <div class="asset-category">
+              <h3 class="category-title">System Files</h3>
+              <div class="asset-grid">
+                <article class="asset-card">
+                  <div class="asset-preview asset-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="15" y="10" width="70" height="80" rx="8" fill="#264DE4" />
+                      <text x="50" y="55" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold" font-family="Arial">CSS</text>
+                    </svg>
+                  </div>
+                  <div class="asset-info">
+                    <h4>styles.css</h4>
+                    <span class="file-extension badge-css">CSS Stylesheet</span>
+                    <p class="file-size">Stylesheet File</p>
+                  </div>
+                </article>
+
+                <article class="asset-card">
+                  <div class="asset-preview asset-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="15" y="10" width="70" height="80" rx="8" fill="#F7DF1E" />
+                      <text x="50" y="55" text-anchor="middle" fill="#000" font-size="18" font-weight="bold" font-family="Arial">JS</text>
+                    </svg>
+                  </div>
+                  <div class="asset-info">
+                    <h4>site.js</h4>
+                    <span class="file-extension badge-js">JavaScript</span>
+                    <p class="file-size">Script File</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- About Section -->
         <section id="about" class="section about-section">
           <div class="container">
@@ -384,6 +716,8 @@
           </div>
           <div class="footer-links">
             <a href="#gallery">Gallery</a>
+            <a href="#video-showcase">Video</a>
+            <a href="#asset-test">Assets</a>
             <a href="#about">About</a>
             <a href="#">Back to Top</a>
           </div>
