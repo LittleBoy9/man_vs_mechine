@@ -379,6 +379,13 @@ p {
   border-bottom: 2px solid var(--line);
 }
 
+.category-note {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
 .asset-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -528,6 +535,30 @@ p {
   margin: 0;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+}
+
+.download-btn svg {
+  flex-shrink: 0;
 }
 
 /* About Section */
